@@ -1,0 +1,46 @@
+
+
+        git config --global user.name
+        git config --global user.email
+
+        git init 
+
+        git add . 
+        git add filename.extgemsion
+        git rm --catched filename
+        git status 
+        git commit -m "Desciption of changes"
+        git log --oneline
+
+    
+        git checkout commit id 
+        git checkout master return to master branch
+        
+        git revert
+        shift : wq
+        add a new commit to revert an existing commit
+
+        git reset 
+        will got to certial commit and delete all the commit history 
+        but the code will remain in editor 
+        but by addidng git reset --hard it wont 
+
+        git branch branchName
+        git checkout branchName
+
+        git branch -D branchName
+
+        git checkout -b branchName
+
+        git merge branchName
+
+        conflict when a branch is creaded and after that in master the same file is updated see images
+
+        git remote add origin(alias) repo.commit
+
+        git push origin master
+
+        git pull origin master
+
+        fork a repo and clone it and push and create pull request 
+
